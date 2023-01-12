@@ -90,7 +90,7 @@ if __name__ == "__main__":
     (x_train, y_train), (x_test, y_test) = downloadData()
     train_data = getBatch(x_train)
     
-    # AutoEncoder 모델 정의
+    # AutoEncoder 모델 의정
     AutoEncoder_model = AutoEncoder()
 
     # 최적화 수행
